@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #111111;
+    font-family: "Inter", sans-serif;
+    margin: 0 80px;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+header {
+    margin-top: 40px;
+    nav {
+        display: flex;
+        color: #cccccc;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 20px;
+
+        .nav {
+            ul {
+                display: flex;
+                gap: 28px;
+            }
+        }
+    }
+}
+
+main {
+    .initial_wrapper {
+        height: 519px;
+        display: flex;
+        margin-top: 120px;
+
+        .title_wrapper {
+            width: 44%;
+            height: 483px;
+
+            #uptitle {
+                color: #ff3998;
+                font-weight: bold;
+                font-size: 16px;
+                margin-bottom: 24px;
+            }
+
+            h1 {
+                color: white;
+                font-weight: 900;
+                font-size: 96px;
+                margin-bottom: 32px;
+            }
+
+            #subtitle {
+                width: 87%;
+                color: #cccccc;
+                font-weight: normal;
+                font-size: 20px;
+                margin-bottom: 41px;
+            }
+
+            button {
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        .title_img_wrapper {
+            img {
+                position: relative;
+                margin-top: -100px;
+            }
+        }
+    }
+
+    .second_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 182px 0 120px 0;
+        .second_generic_wrapper {
+            width: 1400px;
+            height: 320px;
+            background: url("../img/second-wrapper/background.svg");
+
+            display: flex;
+
+            .second_left_wrapper {
+                width: 620px;
+                color: #111111;
+                margin-top: 56px;
+                margin-left: 64px;
+
+                img {
+                    margin-bottom: 26px;
+                }
+
+                h2 {
+                    font-weight: 500;
+                    font-size: 40px;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    font-weight: normal;
+                    font-size: 20px;
+                }
+            }
+
+            .second_right_wrapper{
+                img{
+                    margin-top: -65px;
+                }
+            }
+        }
+    }
+
+    .third_wrapper{
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+}

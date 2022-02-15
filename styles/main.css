@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+  font-family: "Inter", sans-serif;
+  margin: 0 80px;
+}
+
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body ul {
+  list-style: none;
+}
+
+header {
+  margin-top: 40px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #cccccc;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+}
+
+header nav .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28px;
+}
+
+main .initial_wrapper {
+  height: 519px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120px;
+}
+
+main .initial_wrapper .title_wrapper {
+  width: 44%;
+  height: 483px;
+}
+
+main .initial_wrapper .title_wrapper #uptitle {
+  color: #ff3998;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+main .initial_wrapper .title_wrapper h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 96px;
+  margin-bottom: 32px;
+}
+
+main .initial_wrapper .title_wrapper #subtitle {
+  width: 87%;
+  color: #cccccc;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 41px;
+}
+
+main .initial_wrapper .title_wrapper button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+main .initial_wrapper .title_img_wrapper img {
+  position: relative;
+  margin-top: -100px;
+}
+
+main .second_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 182px 0 120px 0;
+}
+
+main .second_wrapper .second_generic_wrapper {
+  width: 1400px;
+  height: 320px;
+  background: url("../img/second-wrapper/background.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .second_wrapper .second_generic_wrapper .second_left_wrapper {
+  width: 620px;
+  color: #111111;
+  margin-top: 56px;
+  margin-left: 64px;
+}
+
+main .second_wrapper .second_generic_wrapper .second_left_wrapper img {
+  margin-bottom: 26px;
+}
+
+main .second_wrapper .second_generic_wrapper .second_left_wrapper h2 {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+main .second_wrapper .second_generic_wrapper .second_left_wrapper p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+main .second_wrapper .second_generic_wrapper .second_right_wrapper img {
+  margin-top: -65px;
+}
+
+main .third_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
