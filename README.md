@@ -16,3 +16,10 @@
   <td>https://url.gratis/ouW1DC</td>
  </tr>
 </table>
+<table>
+  <tr>
+  <td><strong>Link:</strong></td>
+  <td>https://hugocorreaa.github.io/nft-landing/</td>
+ </tr>
+</table>
+
