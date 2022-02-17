@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: #111111;
     font-family: "Inter", sans-serif;
@@ -92,9 +91,18 @@ main {
         align-items: center;
         margin: 182px 0 120px 0;
         .second_generic_wrapper {
-            width: 1400px;
+            width: 100%;
             height: 320px;
-            background: url("../img/second-wrapper/background.svg");
+
+            background: linear-gradient(
+                54deg,
+                rgba(255, 57, 152, 1) 11%,
+                rgba(255, 57, 57, 1) 25%,
+                rgba(255, 129, 57, 1) 75%,
+                rgba(57, 255, 160, 1) 100%
+            );
+
+            border-radius: 16px;
 
             display: flex;
 
@@ -120,18 +128,64 @@ main {
                 }
             }
 
-            .second_right_wrapper{
-                img{
+            .second_right_wrapper {
+                img {
                     margin-top: -65px;
                 }
             }
         }
     }
 
-    .third_wrapper{
-
+    .third_wrapper {
         display: flex;
         justify-content: space-between;
+        padding-bottom: 127px;
+    }
 
+    .fourth_wrapper {
+        h2 {
+            color: white;
+
+            font-weight: 500;
+            font-size: 40px;
+
+            padding-bottom: 24px;
+        }
+
+        p {
+            color: #999999;
+
+            font-weight: normal;
+            font-size: 20px;
+
+            padding-bottom: 56px;
+        }
+
+        .fourth_generic_wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 124px;
+        }
+    }
+
+    .fifth_wrapper {
+        height: 600px;
+        width: 100%;
+        background: linear-gradient(158deg, rgba(255, 129, 57, 1) 77%, rgba(235, 105, 168, 0.514) 100%);
+        
+        border-radius: 16px;
+
+        .fifth_generic_wrapper{
+            display: flex;
+            align-items: center;
+
+            .fifth_left_wrapper{
+                padding-left: 80px;
+            }
+
+            img{
+                border: 1px solid red;
+            }
+        }
     }
 }
