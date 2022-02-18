@@ -28,7 +28,7 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #cccccc;
+  color: #CCCCCC;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -74,7 +74,7 @@ main .initial_wrapper .title_wrapper h1 {
 
 main .initial_wrapper .title_wrapper #subtitle {
   width: 87%;
-  color: #cccccc;
+  color: #CCCCCC;
   font-weight: normal;
   font-size: 20px;
   margin-bottom: 41px;
@@ -179,22 +179,96 @@ main .fifth_wrapper {
   width: 100%;
   background: linear-gradient(158deg, #ff8139 77%, rgba(235, 105, 168, 0.514) 100%);
   border-radius: 16px;
+  margin-bottom: 120px;
 }
 
 main .fifth_wrapper .fifth_generic_wrapper {
+  height: 100%;
+  color: #111111;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 80px;
 }
 
 main .fifth_wrapper .fifth_generic_wrapper .fifth_left_wrapper {
+  width: 460px;
+  height: 324px;
+}
+
+main .fifth_wrapper .fifth_generic_wrapper .fifth_left_wrapper h2 {
+  font-weight: 500;
+  font-size: 40px;
+  padding-bottom: 32px;
+}
+
+main .fifth_wrapper .fifth_generic_wrapper .fifth_left_wrapper p {
+  font-weight: normal;
+  font-size: 20px;
+  padding-bottom: 32px;
+}
+
+main .fifth_wrapper .fifth_generic_wrapper .fifth_left_wrapper button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+main .fifth_wrapper .fifth_generic_wrapper .fifth_right_wrapper {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .fifth_wrapper .fifth_generic_wrapper .fifth_right_wrapper div {
+  padding-bottom: 80px;
   padding-left: 80px;
 }
 
-main .fifth_wrapper .fifth_generic_wrapper img {
-  border: 1px solid red;
+main .fifth_wrapper .fifth_generic_wrapper .fifth_right_wrapper div .id {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+main .fifth_wrapper .fifth_generic_wrapper .fifth_right_wrapper div .name {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+main .fifth_wrapper .fifth_generic_wrapper .fifth_right_wrapper div .number {
+  color: #777777;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+main .sixth_wrapper {
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(13deg, rgba(255, 129, 57, 0.805217) 0%, #39ffa0 33%);
+  border-radius: 16px;
+  margin-bottom: 120px;
+}
+
+main .sixth_wrapper .sixth_generic_wrapper {
+  border: 1px solid blue;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
