@@ -9,6 +9,7 @@ body {
   background-color: #111111;
   font-family: "Inter", sans-serif;
   margin: 0 80px;
+  overflow-x: hidden;
 }
 
 body a {
@@ -87,7 +88,7 @@ main .initial_wrapper .title_wrapper button {
 }
 
 main .initial_wrapper .title_img_wrapper img {
-  position: relative;
+  margin-left: 15%;
   margin-top: -100px;
 }
 
@@ -115,7 +116,7 @@ main .second_wrapper .second_generic_wrapper {
 }
 
 main .second_wrapper .second_generic_wrapper .second_left_wrapper {
-  width: 620px;
+  width: 55%;
   color: #111111;
   margin-top: 56px;
   margin-left: 64px;
@@ -136,7 +137,12 @@ main .second_wrapper .second_generic_wrapper .second_left_wrapper p {
   font-size: 20px;
 }
 
+main .second_wrapper .second_generic_wrapper .second_right_wrapper {
+  margin-right: 156px;
+}
+
 main .second_wrapper .second_generic_wrapper .second_right_wrapper img {
+  margin-left: 20%;
   margin-top: -65px;
 }
 
@@ -231,6 +237,8 @@ main .fifth_wrapper .fifth_generic_wrapper .fifth_right_wrapper {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  margin-left: 15%;
+  margin-right: 80px;
 }
 
 main .fifth_wrapper .fifth_generic_wrapper .fifth_right_wrapper div {
@@ -275,12 +283,13 @@ main .sixth_wrapper .sixth_generic_wrapper {
 
 main .sixth_wrapper .sixth_generic_wrapper .sixth_left_wrapper {
   margin-left: 80px;
+  margin-right: 25%;
 }
 
 main .sixth_wrapper .sixth_generic_wrapper .sixth_right_wrapper {
   width: 455px;
   height: 324px;
-  margin-left: 178px;
+  margin-right: 80px;
 }
 
 main .sixth_wrapper .sixth_generic_wrapper .sixth_right_wrapper h2 {
@@ -301,5 +310,141 @@ main .sixth_wrapper .sixth_generic_wrapper .sixth_right_wrapper button {
   cursor: pointer;
   font-weight: 600;
   font-size: 20px;
+}
+
+main .seventh_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+main .seventh_wrapper div {
+  width: 620px;
+  height: 614px;
+  background: #555555;
+  border-radius: 16px;
+  padding: 80px;
+}
+
+main .seventh_wrapper div h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+main .seventh_wrapper div p {
+  color: #eeeeee;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+main .eighth_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120px;
+  border-bottom: 2px solid #555555;
+  border-top: 2px solid #555555;
+  background-image: url(../img/eighth-wrapper/image.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 120px;
+  padding-bottom: 120px;
+}
+
+main .eighth_wrapper .title_wrapper {
+  width: 44%;
+  height: 483px;
+  margin-top: 120px;
+}
+
+main .eighth_wrapper .title_wrapper #uptitle {
+  color: #ff3998;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+main .eighth_wrapper .title_wrapper h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 96px;
+  margin-bottom: 32px;
+}
+
+main .eighth_wrapper .title_wrapper #subtitle {
+  width: 87%;
+  color: #cccccc;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 41px;
+}
+
+main .eighth_wrapper .title_wrapper button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  color: #eeeeee;
+}
+
+footer .footer_generic_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+footer .footer_generic_wrapper .footer_left_wrapper img, footer .footer_generic_wrapper .footer_left_wrapper p {
+  margin-bottom: 30px;
+}
+
+footer .footer_generic_wrapper .footer_left_wrapper .social_media img:nth-child(n+2):nth-child(-n+4) {
+  margin-left: 16px;
+}
+
+footer .footer_generic_wrapper .footer_right_wrapper {
+  width: 590px;
+  height: 139px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer_generic_wrapper .footer_right_wrapper h3 {
+  margin-bottom: 28px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer .footer_generic_wrapper .footer_right_wrapper p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+footer .footer {
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

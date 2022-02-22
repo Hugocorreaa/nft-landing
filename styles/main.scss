@@ -17,6 +17,7 @@ body {
     background-color: $dark1-color;
     font-family: "Inter", sans-serif;
     margin: 0 80px;
+    overflow-x: hidden;
 
     a {
         color: inherit;
@@ -88,7 +89,7 @@ main {
 
         .title_img_wrapper {
             img {
-                position: relative;
+                margin-left: 15%;
                 margin-top: -100px;
             }
         }
@@ -116,7 +117,8 @@ main {
             display: flex;
 
             .second_left_wrapper {
-                width: 620px;
+                width: 55%;
+
                 color: $dark1-color;
                 margin-top: 56px;
                 margin-left: 64px;
@@ -138,7 +140,10 @@ main {
             }
 
             .second_right_wrapper {
+                margin-right: 156px;
                 img {
+                    margin-left: 20%;
+
                     margin-top: -65px;
                 }
             }
@@ -232,6 +237,9 @@ main {
                 justify-content: flex-end;
                 align-items: flex-end;
 
+                margin-left: 15%;
+                margin-right: 80px;
+
                 div {
                     padding-bottom: 80px;
                     padding-left: 80px;
@@ -277,13 +285,14 @@ main {
 
             .sixth_left_wrapper {
                 margin-left: 80px;
+                margin-right: 25%;
             }
 
             .sixth_right_wrapper {
                 width: 455px;
                 height: 324px;
 
-                margin-left: 178px;
+                margin-right: 80px;
 
                 h2 {
                     font-weight: 500;
@@ -310,5 +319,138 @@ main {
                 }
             }
         }
+    }
+
+    .seventh_wrapper {
+        display: flex;
+        justify-content: space-around;
+
+        margin-bottom: 120px;
+        div {
+            width: 620px;
+            height: 614px;
+
+            background: $dark2-color;
+            border-radius: 16px;
+
+            padding: 80px;
+
+            h2 {
+                color: $light1-color;
+                font-size: 40px;
+                font-weight: 500;
+
+                margin-top: 32px;
+                margin-bottom: 32px;
+            }
+
+            p {
+                color: $light3-color;
+                font-size: 20px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    .eighth_wrapper {
+        display: flex;
+        margin-top: 120px;
+
+        border-bottom: 2px solid $dark2-color;
+        border-top: 2px solid $dark2-color;
+
+        background-image: url(../img/eighth-wrapper/image.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        margin-bottom: 120px;
+        padding-bottom: 120px;
+
+        .title_wrapper {
+            width: 44%;
+            height: 483px;
+
+            margin-top: 120px;
+
+            #uptitle {
+                color: #ff3998;
+                font-weight: bold;
+                font-size: 16px;
+                margin-bottom: 24px;
+            }
+
+            h1 {
+                color: $light1-color;
+                font-weight: 900;
+                font-size: 96px;
+                margin-bottom: 32px;
+            }
+
+            #subtitle {
+                width: 87%;
+                color: $light4-color;
+                font-weight: normal;
+                font-size: 20px;
+                margin-bottom: 41px;
+            }
+
+            button {
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+footer {
+    color: $light3-color;
+
+    .footer_generic_wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 120px;
+
+        .footer_left_wrapper{
+            img, p{
+                margin-bottom: 30px;
+            }
+            .social_media{
+                img:nth-child(n+2):nth-child(-n+4){
+                    margin-left: 16px;
+                }
+            }
+        }
+
+        .footer_right_wrapper {
+            width: 590px;
+            height: 139px;
+
+            display: flex;
+            justify-content: space-between;
+
+            h3 {
+                margin-bottom: 28px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            p {
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 150%;
+            }
+        }
+    }
+
+    .footer {
+        color: $light4-color;
+
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 50px;
     }
 }
