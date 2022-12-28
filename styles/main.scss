@@ -58,13 +58,11 @@ header {
 
 main {
     .initial_wrapper {
-        height: 519px;
         display: flex;
+        justify-content: space-between;
         margin-top: 120px;
 
         .title_wrapper {
-            width: 44%;
-            height: 483px;
 
             #uptitle {
                 color: #ff3998;
@@ -75,12 +73,12 @@ main {
 
             h1 {
                 color: $light1-color;
+                font-size: clamp(2em, 5vw, 6em);
                 font-weight: 900;
-                font-size: 96px;
                 margin-bottom: 32px;
 
-                @media screen and (max-width: $big-landscape-tablets) {
-                    font-size: 70px;
+                @media screen and (min-width: 1859px){
+                    margin-right: 2%; 
                 }
             }
 
@@ -100,14 +98,16 @@ main {
         }
 
         .title_img_wrapper {
-            img {
-                margin-left: 15%;
-                margin-top: -100px;
+            display: flex;
+            align-items: center;
+            margin-top: -6%;
 
-                @media screen and (max-width: $big-landscape-tablets) {
-                    width: 95%;
-                    margin-top: 0;
-                }
+            img {
+                width: 120%;
+            }
+
+            @media screen and (max-width: 1116px) {
+                align-items: flex-start;
             }
         }
     }
@@ -116,7 +116,13 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 182px 0 120px 0;
+        margin: 50px 0 120px 0;
+
+        
+        @media screen and (max-width: $big-landscape-tablets) {
+            margin-bottom: 65px;
+        }
+
         .second_generic_wrapper {
             width: 100%;
             height: 320px;
@@ -134,14 +140,14 @@ main {
             display: flex;
 
             @media screen and (max-width: $big-landscape-tablets) {
-                height: 400px;
+                height: 350px;
             }
 
             .second_left_wrapper {
                 width: 55%;
 
                 color: $dark1-color;
-                margin-top: 56px;
+                margin-top: 30px;
                 margin-left: 64px;
 
                 img {
@@ -150,7 +156,7 @@ main {
 
                 h2 {
                     font-weight: 500;
-                    font-size: 40px;
+                    font-size: clamp(1em, 3vw, 2.5em);
                     margin-bottom: 24px;
                 }
 
@@ -158,17 +164,24 @@ main {
                     font-weight: normal;
                     font-size: 20px;
                 }
+
             }
 
             .second_right_wrapper {
-                margin-right: 156px;
+
                 img {
                     margin-left: 20%;
+                    margin-right: 156px;
 
                     margin-top: -65px;
 
                     @media screen and (max-width: $big-landscape-tablets) {
-                        width: 95%;
+                        width: 100%;
+
+                        margin-left: 0;
+                        margin-top: 0;
+                        margin-right: 0;
+
                     }
                 }
             }
@@ -178,12 +191,18 @@ main {
     .third_wrapper {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 127px;
+        margin-bottom: 127px;
+
+        a{
+            margin: 0 3px 0 3px;
+        }
 
         @media screen and (max-width: $big-landscape-tablets) {
+            margin-bottom: 65px;
+            
             a {
                 img {
-                    width: 75%;
+                    width: clamp(60%, 90%, 100%);
                 }
             }
         }
@@ -210,123 +229,135 @@ main {
 
         .fourth_generic_wrapper {
             display: flex;
-            justify-content: space-between;
-            padding-bottom: 124px;
+            gap: 30px;
 
-            @media screen and (max-width: $desktops) {
-                img {
-                    width: 20%;
+            padding-bottom: 124px;
+            
+            @media screen and (max-width: 1116px){
+                flex-direction: column;
+            }
+
+
+            .fourth_divider{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+
+                img{
+                    width: 40%;
                 }
             }
+
         }
     }
 
     .fifth_wrapper {
         height: 600px;
-        width: 100%;
+
         background: linear-gradient(158deg, rgba(255, 129, 57, 1) 77%, rgba(235, 105, 168, 0.514) 100%);
 
         border-radius: 16px;
 
+        color: $dark1-color;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
         margin-bottom: 120px;
 
-        .fifth_generic_wrapper {
-            height: 100%;
+        padding: 0 40px 0 40px;
 
-            color: $dark1-color;
 
-            display: flex;
-            align-items: center;
-            margin-left: 80px;
+        .fifth_left_wrapper {
+            width: 50%;
+            height: 324px;
 
-            .fifth_left_wrapper {
-                width: 460px;
-                height: 324px;
-
-                @media screen and (max-width: $big-landscape-tablets) {
-                    margin-top: -100px;
-                }
-
-                h2 {
-                    font-weight: 500;
-                    font-size: 40px;
-
-                    padding-bottom: 32px;
-                }
-
-                p {
-                    font-weight: normal;
-                    font-size: 20px;
-
-                    padding-bottom: 32px;
-                }
-
-                button {
-                    background: none;
-                    border: none;
-
-                    cursor: pointer;
-
-                    font-weight: 600;
-                    font-size: 20px;
-                }
+            @media screen and (max-width: $big-landscape-tablets) {         
+                width: 65%;
+                margin-left: -20px;
+            
             }
 
+            h2 {
+                font-weight: 500;
+                font-size: 40px;
+
+                padding-bottom: 32px;
+            }
+
+            p {
+                font-weight: normal;
+                font-size: 20px;
+
+                padding-bottom: 32px;
+            }
+
+            button {
+                background: none;
+                border: none;
+
+                cursor: pointer;
+
+                font-weight: 600;
+                font-size: 20px;
+            }
+        }
+
             .fifth_right_wrapper {
+
                 height: 100%;
-                width: 50%;
 
                 display: flex;
                 justify-content: flex-end;
                 align-items: flex-end;
 
-                margin-left: 15%;
-                margin-right: 80px;
+                
 
-                @media screen and (max-width: $big-landscape-tablets) {
-                    margin-left: 10%;
-
-                    img {
-                        width: 200px;
-                    }
-                }
-
-                div {
-                    padding-bottom: 80px;
-                    padding-left: 80px;
+                img{
+                    width: 100%;
 
                     @media screen and (max-width: $big-landscape-tablets) {
-                        padding-left: 0;
-                        margin-left: 30px;
-
-                        .id,
-                        .name,
-                        .number {
-                            width: 100px;
-                        }
+                        position: absolute;          
+                        width: 25%;
+                        left: 60%;              
                     }
 
-                    .id {
-                        color: $light1-color;
+                }
 
-                        font-weight: 500;
-                        font-size: 12px;
-                    }
 
-                    .name {
-                        font-weight: 500;
-                        font-size: 20px;
-                    }
+            }
 
-                    .number {
-                        color: $dark3-color;
+            .teste {
+                margin-top: 30%;
 
-                        font-weight: normal;
-                        font-size: 18px;
-                    }
+                
+                @media screen and (max-width: $big-landscape-tablets) {
+                    display: none;
+                
+                }
+
+                .id {
+                    color: $light1-color;
+
+                    font-weight: 500;
+                    font-size: 0.75em;
+                }
+
+                .name {
+                    font-weight: 500;
+                    font-size: 1.25em;
+                }
+
+                .number {
+                    color: $dark3-color;
+
+                    font-weight: normal;
+                    font-size: 1.125em;
                 }
             }
-        }
+        
     }
 
     .sixth_wrapper {
