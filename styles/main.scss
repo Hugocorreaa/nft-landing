@@ -696,6 +696,10 @@ main {
 
             padding-bottom: 0;
 
+            .background_none{
+                background: $dark1-color;
+            }
+
             :first-child {
                 margin-bottom: 0;
             }
@@ -747,9 +751,7 @@ main {
             }
         }
 
-        .background_none{
-            background: $dark1-color;
-        }
+
     }
 
     .eighth_wrapper {

@@ -566,6 +566,9 @@ main .seventh_wrapper {
     margin: 0 -40px 0 -40px;
     padding-bottom: 0;
   }
+  main .seventh_wrapper .background_none {
+    background: #111111;
+  }
   main .seventh_wrapper :first-child {
     margin-bottom: 0;
   }
@@ -607,9 +610,6 @@ main .seventh_wrapper .card p {
   color: #cccccc;
   font-size: 20px;
   font-weight: normal;
-}
-main .seventh_wrapper .background_none {
-  background: #111111;
 }
 main .eighth_wrapper {
   display: flex;
