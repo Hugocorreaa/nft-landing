@@ -1,6 +1,6 @@
 # Landing Page 
 
-<img src="https://ibb.co/KL9NF5J" alt="Thumbnail">
+<img src="https://i.ibb.co/cCNbDyj/Captura-de-tela-2022-12-31-135329.png" alt="Thumbnail">
 
 <table>
  <tr>
@@ -8,6 +8,9 @@
   <td>Html</td>
   <td>Sass</td>
   <td>JavaScript</td>
+  <td>Atropos</td> 
+  <td>Swiper</td>
+
  </tr>
 </table>
 <table>
