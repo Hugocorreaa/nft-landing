@@ -697,13 +697,12 @@ main {
             padding-bottom: 0;
 
             .background_none{
-                background: $dark1-color;
+                background-color: $dark1-color!important;
             }
 
             :first-child {
                 margin-bottom: 0;
             }
-
         }
 
         .card {
@@ -751,8 +750,9 @@ main {
             }
         }
 
-
     }
+
+
 
     .eighth_wrapper {
         display: flex;

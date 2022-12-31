@@ -567,7 +567,7 @@ main .seventh_wrapper {
     padding-bottom: 0;
   }
   main .seventh_wrapper .background_none {
-    background: #111111;
+    background-color: #111111 !important;
   }
   main .seventh_wrapper :first-child {
     margin-bottom: 0;
