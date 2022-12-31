@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nftlanding</title>
+    <!-- Css -->
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="atropos/atropos.min.css">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 </head>
 
 <body>
@@ -20,6 +24,13 @@
             <div class="logo">
                 <img src="img/logo.svg" alt="logo">
             </div>
+
+            <div class="mobile_nav">
+                <button><img src="img/menu.svg" alt=""></button>
+
+
+            </div>
+
             <div class="nav">
                 <ul>
                     <a href="">
@@ -78,13 +89,76 @@
             <h2>LE Super Rare Auction</h2>
             <p>We have released four limited edition NFTs early wich can be bid on dia OpenSea</p>
             <div class="fourth_generic_wrapper">
-                <div class="fourth_divider">
-                    <img src="img/fourth-wrapper/1.png" alt="">
-                    <img src="img/fourth-wrapper/2.png" alt="">
+
+                <!-- SWIPER -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="img/fourth-wrapper/1.png" alt="">
+                        <img class="swiper-slide" src="img/fourth-wrapper/2.png" alt="">
+                        <img class="swiper-slide" src="img/fourth-wrapper/3.png" alt="">
+                        <img class="swiper-slide" src="img/fourth-wrapper/4.png" alt="">
+                    </div>
+                  </div>
+
+                <!-- ===== ATROPOS ===== -->
+                <!-- main Atropos container (required), add your custom class here -->
+                <div class="atropos my-atropos">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+                                <!-- put your custom content here -->
+                                <img src="img/fourth-wrapper/1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="fourth_divider">
-                    <img src="img/fourth-wrapper/3.png" alt="">
-                    <img src="img/fourth-wrapper/4.png" alt="">
+
+                <!-- main Atropos container (required), add your custom class here -->
+                <div class="atropos my-atropos">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+                                <!-- put your custom content here -->
+                                <img src="img/fourth-wrapper/2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main Atropos container (required), add your custom class here -->
+                <div class="atropos my-atropos">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+                                <!-- put your custom content here -->
+                                <img src="img/fourth-wrapper/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main Atropos container (required), add your custom class here -->
+                <div class="atropos my-atropos">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+                                <!-- put your custom content here -->
+                                <img src="img/fourth-wrapper/4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -107,7 +181,7 @@
                 <img src="img/fifth-wrapper/nft01.png" alt="">
             </div>
 
-            <div class="teste">
+            <div class="fifth_aside_wrapper">
                 <p class="id">GLOOP SERIES</p>
                 <p class="name">Red Man</p>
                 <p class="number">#12983</p>
@@ -116,17 +190,30 @@
         </section>
 
         <section class="sixth_wrapper">
+            <h2 class="sixth_h2_hidden">Initial Release 4/11</h2>
+
             <div class="sixth_generic_wrapper">
                 <div class="sixth_left_wrapper">
-                    <img src="img/sixth_wrapper/card.png" alt="">
+                    <!-- main Atropos container (required), add your custom class here -->
+                    <div class="atropos my-atropos">
+                        <!-- scale container (required) -->
+                        <div class="atropos-scale">
+                            <!-- rotate container (required) -->
+                            <div class="atropos-rotate">
+                                <!-- inner container (required) -->
+                                <div class="atropos-inner">
+                                    <!-- put your custom content here -->
+                                    <img src="img/sixth_wrapper/card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="sixth_right_wrapper">
                     <h2>Initial Release 4/11</h2>
                     <p>
                         We have released four limited edition NFTs early which can be bid on via
-                        <strong><u>OpenSea</u></strong>.<br><br>
-                        These will be the only four of these NFTs we ever make, so be sure not to miss out!
-                        <br><br>50% of proceeds go to charity.
+                        <strong><u>OpenSea</u></strong>.
                     </p>
                     <button>Check them out &#8594</button>
                 </div>
@@ -134,7 +221,7 @@
         </section>
 
         <section class="seventh_wrapper">
-            <div>
+            <div class="seventh_right_wrapper card">
                 <img src="img/seventh-wrapper/icon-1.png" alt="nft-logo">
                 <h2>An NFT like no other</h2>
                 <p>
@@ -142,9 +229,10 @@
                     18/9.
                     <br><br>
                     Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live on
-                    18/9.Don’t miss out on the release of our new NFT. </p>
+                    18/9.Don’t miss out on the release of our new NFT.
+                </p>
             </div>
-            <div>
+            <div class="seventh_left_wrapper card background_none">
                 <img src="img/seventh-wrapper/icon.png" alt="nft-logo">
                 <h2>An NFT like no other</h2>
                 <p>
@@ -152,7 +240,8 @@
                     18/9.
                     <br><br>
                     Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live on
-                    18/9.Don’t miss out on the release of our new NFT. </p>
+                    18/9.Don’t miss out on the release of our new NFT.
+                </p>
             </div>
         </section>
 
@@ -207,10 +296,31 @@
             </section>
             <section class="footer">
                 <p>© Copyright 2022 NFTlanding</p>
-                <p>Launching August 2022</p>
             </section>
         </footer>
     </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="atropos/atropos.min.js"></script>
+    <script>
+        // Initialize Atropos
+        document.querySelectorAll('.my-atropos').forEach((element) => {
+            Atropos({
+                // pass unique element here
+                el: element,
+                // rest of parameters
+            });
+        })
+
+        // Initialize Swiper
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            loop: true,
+            spaceBetween: 30,
+          });
+    </script>
 </body>
 
 </html>
