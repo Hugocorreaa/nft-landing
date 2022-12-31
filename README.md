@@ -1,6 +1,6 @@
 # Landing Page 
 
-<img src="https://i.ibb.co/Xjq27QB/Thumbnail.png" alt="Thumbnail">
+<img src="https://ibb.co/KL9NF5J" alt="Thumbnail">
 
 <table>
  <tr>
